@@ -1,13 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{33B2CE78-81EE-479C-83BF-2F6B899F60C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheNugetPackage", "src\TheNugetPackage\TheNugetPackage.csproj", "{71966269-6D8A-4EC9-9446-8529BC358C01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheNugetPackage", "src\TheNugetPackage\TheNugetPackage.csproj", "{71966269-6D8A-4EC9-9446-8529BC358C01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheWPFClient", "src\TheWPFClient\TheWPFClient.csproj", "{B44D1B6B-21E1-42FA-ADC1-DE7A2FEB4614}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheWPFClient", "src\TheWPFClient\TheWPFClient.csproj", "{B44D1B6B-21E1-42FA-ADC1-DE7A2FEB4614}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E3689F02-6682-4634-995D-4A2B75554432}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Nuget.config = Nuget.config
+		readme.md = readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +24,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{71966269-6D8A-4EC9-9446-8529BC358C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -47,8 +51,14 @@ Global
 		{B44D1B6B-21E1-42FA-ADC1-DE7A2FEB4614}.Release|x86.ActiveCfg = Release|Any CPU
 		{B44D1B6B-21E1-42FA-ADC1-DE7A2FEB4614}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{71966269-6D8A-4EC9-9446-8529BC358C01} = {33B2CE78-81EE-479C-83BF-2F6B899F60C7}
 		{B44D1B6B-21E1-42FA-ADC1-DE7A2FEB4614} = {33B2CE78-81EE-479C-83BF-2F6B899F60C7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BC2672D-E778-4033-88A0-DE4D3E5E5AF3}
 	EndGlobalSection
 EndGlobal

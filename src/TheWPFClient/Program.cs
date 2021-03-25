@@ -6,7 +6,9 @@ namespace TheWPFClient
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello beatiful World!");
+
+            var text = RZL.TheImportantLibrary.DoSomething();
         }
     }
 }

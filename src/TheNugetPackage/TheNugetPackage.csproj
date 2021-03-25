@@ -16,6 +16,10 @@
     <SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
   </PropertyGroup>
 
+	<PropertyGroup>
+		<OutputPath>..\..\repofolder</OutputPath>
+	</PropertyGroup>
+
   <ItemGroup>
     <Compile Update="@(Compile)">
       <Pack>true</Pack>
