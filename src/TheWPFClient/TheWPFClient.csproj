@@ -5,6 +5,7 @@
     <TargetFrameworks>net5.0-windows;net472</TargetFrameworks>
 		<UseWPF>true</UseWPF>
 		<LangVersion>latest</LangVersion>
+		<IncludePackageReferencesDuringMarkupCompilation>true</IncludePackageReferencesDuringMarkupCompilation>
   </PropertyGroup>
 
   <!--<ItemGroup>

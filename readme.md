@@ -1,5 +1,17 @@
 # Code Only Nuget Package in WPF
 
+## The Solution
+
+Thanks to the help at [manuelroemer/Nullable#20](https://github.com/manuelroemer/Nullable/issues/20) I could find a solution to the problem.
+The solution is described at [microsoft/CsWin32#7](https://github.com/microsoft/CsWin32/issues/7)
+
+The referencing WPF project has to add the following property in the project:
+```xml
+<IncludePackageReferencesDuringMarkupCompilation>true</IncludePackageReferencesDuringMarkupCompilation>
+```
+
+## The Problem
+
 A small test repository to play with source code only nuget packages in a WPF environment.
 
 The `src\TheNugetPackage` projects is build by running
