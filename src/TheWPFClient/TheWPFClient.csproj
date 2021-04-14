@@ -4,10 +4,14 @@
     <OutputType>Exe</OutputType>
     <TargetFrameworks>net5.0-windows;net472</TargetFrameworks>
 		<UseWPF>true</UseWPF>
+		<LangVersion>latest</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="TheNugetPackage" Version="1.0.0" />
+    <PackageReference Include="Nullable" Version="1.3.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+		</PackageReference>
   </ItemGroup>
 
 </Project>
