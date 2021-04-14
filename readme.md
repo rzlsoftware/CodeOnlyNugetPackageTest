@@ -10,3 +10,7 @@ I tried to use that technic but when using it an an WPF environment i experience
 Simply build open the soluion in Visual Studio, build the nuget package and then the WPF project.
 
 If you undo the last commit or delete the empty `UserControl` the error will be gone.
+
+## Nullable
+
+The problem can be recreated when using the external library [Nullable](https://github.com/manuelroemer/Nullable).

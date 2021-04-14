@@ -7,6 +7,19 @@
 		<LangVersion>latest</LangVersion>
   </PropertyGroup>
 
+  <!--<ItemGroup>
+    <Compile Remove="UserControl__that_breaks_the_code.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="UserControl__that_breaks_the_code.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="UserControl__that_breaks_the_code.xaml" />
+    <None Include="UserControl__that_breaks_the_code.xaml.cs" />
+  </ItemGroup>-->
+
   <ItemGroup>
     <PackageReference Include="Nullable" Version="1.3.0">
 			<PrivateAssets>all</PrivateAssets>
